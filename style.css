@@ -1,0 +1,45 @@
+body{
+    
+    font-family: 'montserrat', sans-serif;
+    background: #00628B;
+    background: radial-gradient(#0086BE, #00628B, #003F8B);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.container{
+background: #f6f5f7;
+border-radius: 10px;
+padding-top: 10px;
+position: relative;
+
+width: 768px;
+max-width: 100%;
+min-height: 450px;
+text-align: center;
+padding-bottom: 10px;
+
+}
+
+.panel{
+background: #E6E6DC;
+background: linear-gradient(to right, #D1D1BE, #E6E6DC) no-repeat 0 0 / cover;
+
+display: flex
+height: 100%;
+justify-content: center;
+align-items: center;
+text-align: center;
+}
+
+input[type=text], input[type=number]{
+    width: 95%;
+    padding: 10px;
+    
+    margin: 5px;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+    }
